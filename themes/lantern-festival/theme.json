@@ -3,25 +3,79 @@
   "blurb": "A night of paper lanterns: plum dark, warm lights drifting over the hills, red and gold.",
   "mode": "dark",
   "author": "Shell:B",
+  "authorUrl": "https://github.com/EveAeternam/Shell-B",
   "license": "MIT",
   "version": "1.0",
-  "tags": ["festival", "night", "warm"],
+  "tags": [
+    "festival",
+    "night",
+    "warm"
+  ],
   "palette": {
-    "bg": "#1a0f1e", "panel": "#231527", "raised": "#2c1b31", "hover": "#37233d", "code": "#140b17",
-    "text": "#f6e9e3", "text2": "#c9b2ad", "muted": "#a9918c",
-    "accent": "#f0b64a", "brand": "#e3493a", "line": "#ffffff"
+    "bg": "#1a0f1e",
+    "panel": "#231527",
+    "raised": "#2c1b31",
+    "hover": "#37233d",
+    "code": "#140b17",
+    "text": "#f6e9e3",
+    "text2": "#c9b2ad",
+    "muted": "#a9918c",
+    "accent": "#f0b64a",
+    "brand": "#e3493a",
+    "line": "#ffffff"
   },
-  "inks": ["#e3493a", "#f0b64a", "#ffd9a0"],
-  "fonts": { "display": "shippori-mincho", "body": "shippori-mincho" },
-  "caps": false, "tracking": 0.02, "shape": "soft",
+  "inks": [
+    "#e3493a",
+    "#f0b64a",
+    "#ffd9a0"
+  ],
+  "fonts": {
+    "display": "shippori-mincho",
+    "body": "shippori-mincho"
+  },
+  "caps": false,
+  "tracking": 0.02,
+  "shape": "soft",
   "backdrop": {
-    "sky": ["#120a16", "#1a0f1e", "#2a1626"],
-    "glows": [
-      { "x": 25, "y": 30, "size": 40, "strength": 0.2, "color": "#ff7a4a" },
-      { "x": 70, "y": 45, "size": 45, "strength": 0.16, "color": "#ffb347" },
-      { "x": 50, "y": 80, "size": 60, "strength": 0.1, "color": "#e3493a" }
+    "sky": [
+      "#120a16",
+      "#1a0f1e",
+      "#2a1626"
     ],
-    "stars": 0.3, "horizon": "hills", "horizonColor": "#0e0810"
+    "glows": [
+      {
+        "x": 25,
+        "y": 30,
+        "size": 40,
+        "strength": 0.2,
+        "color": "#ff7a4a"
+      },
+      {
+        "x": 70,
+        "y": 45,
+        "size": 45,
+        "strength": 0.16,
+        "color": "#ffb347"
+      },
+      {
+        "x": 50,
+        "y": 80,
+        "size": 60,
+        "strength": 0.1,
+        "color": "#e3493a"
+      }
+    ],
+    "stars": 0.3,
+    "horizon": "hills",
+    "horizonColor": "#0e0810"
   },
-  "particles": { "kind": "bokeh", "colors": ["#ffb347", "#ff7a4a", "#ffd9a0"], "density": 1.2 }
+  "particles": {
+    "kind": "bokeh",
+    "colors": [
+      "#ffb347",
+      "#ff7a4a",
+      "#ffd9a0"
+    ],
+    "density": 1.2
+  }
 }

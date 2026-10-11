@@ -1,0 +1,47 @@
+name: Submit a theme
+description: Share a theme without using git. A maintainer adds it to the catalogue with you as the author.
+title: "[Theme] "
+labels: [theme-submission]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Paste the theme Shell:B exported (Settings → Appearance → your theme → Export) or one you wrote by hand.
+        The format is in the README. You'll be credited as the author in the picker, the gallery and index.json.
+  - type: input
+    id: name
+    attributes:
+      label: Theme name
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Credit as
+      description: The name to show as the author.
+    validations:
+      required: true
+  - type: input
+    id: author-url
+    attributes:
+      label: Link for your name (optional)
+      placeholder: https://github.com/you
+  - type: dropdown
+    id: license
+    attributes:
+      label: License
+      options: [MIT, CC0-1.0, CC-BY-4.0]
+    validations:
+      required: true
+  - type: textarea
+    id: json
+    attributes:
+      label: theme.json
+      render: json
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: What the look is, what inspired it, anything in it that isn't yours (we'll add it to credits).

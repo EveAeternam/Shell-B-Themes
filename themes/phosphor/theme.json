@@ -3,21 +3,60 @@
   "blurb": "Green phosphor on black glass: a monospaced console look with a faint tube glow and square corners.",
   "mode": "dark",
   "author": "Shell:B",
+  "authorUrl": "https://github.com/EveAeternam/Shell-B",
   "license": "MIT",
   "version": "1.0",
-  "tags": ["terminal", "retro", "mono"],
+  "tags": [
+    "terminal",
+    "retro",
+    "mono"
+  ],
   "palette": {
-    "bg": "#0a0f0a", "panel": "#0f160f", "raised": "#142014", "hover": "#1b2a1b", "code": "#060a06",
-    "text": "#d8f5d8", "text2": "#93c493", "muted": "#78a878",
-    "accent": "#39ff88", "brand": "#7fd7ff", "line": "#39ff88"
+    "bg": "#0a0f0a",
+    "panel": "#0f160f",
+    "raised": "#142014",
+    "hover": "#1b2a1b",
+    "code": "#060a06",
+    "text": "#d8f5d8",
+    "text2": "#93c493",
+    "muted": "#78a878",
+    "accent": "#39ff88",
+    "brand": "#7fd7ff",
+    "line": "#39ff88"
   },
-  "inks": ["#39ff88", "#0a0f0a", "#7fd7ff"],
-  "fonts": { "display": "jetbrains-mono", "body": "inter" },
-  "caps": false, "tracking": 0.02, "shape": "hard",
+  "inks": [
+    "#39ff88",
+    "#0a0f0a",
+    "#7fd7ff"
+  ],
+  "fonts": {
+    "display": "jetbrains-mono",
+    "body": "inter"
+  },
+  "caps": false,
+  "tracking": 0.02,
+  "shape": "hard",
   "backdrop": {
-    "sky": ["#070b07", "#0a0f0a"],
-    "glows": [{ "x": 50, "y": 50, "size": 90, "strength": 0.08, "color": "#39ff88" }],
-    "stars": 0, "horizon": "none", "horizonColor": "#000000"
+    "sky": [
+      "#070b07",
+      "#0a0f0a"
+    ],
+    "glows": [
+      {
+        "x": 50,
+        "y": 50,
+        "size": 90,
+        "strength": 0.08,
+        "color": "#39ff88"
+      }
+    ],
+    "stars": 0,
+    "horizon": "none",
+    "horizonColor": "#000000"
   },
-  "particles": { "kind": "none", "colors": [], "density": 1 }
+  "particles": {
+    "kind": "none",
+    "colors": [],
+    "density": 1
+  }
 }

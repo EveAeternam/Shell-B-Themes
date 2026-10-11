@@ -3,24 +3,71 @@
   "blurb": "The rains arrive over a slate-grey city: lamplight through wet glass, teal neon, water sheeting down.",
   "mode": "dark",
   "author": "Shell:B",
+  "authorUrl": "https://github.com/EveAeternam/Shell-B",
   "license": "MIT",
   "version": "1.0",
-  "tags": ["rain", "city", "night"],
+  "tags": [
+    "rain",
+    "city",
+    "night"
+  ],
   "palette": {
-    "bg": "#0f1518", "panel": "#151e23", "raised": "#1c272d", "hover": "#243239", "code": "#0a0f12",
-    "text": "#e4ecee", "text2": "#a5b7bc", "muted": "#869a9f",
-    "accent": "#e0a458", "brand": "#4fb3bf", "line": "#ffffff"
+    "bg": "#0f1518",
+    "panel": "#151e23",
+    "raised": "#1c272d",
+    "hover": "#243239",
+    "code": "#0a0f12",
+    "text": "#e4ecee",
+    "text2": "#a5b7bc",
+    "muted": "#869a9f",
+    "accent": "#e0a458",
+    "brand": "#4fb3bf",
+    "line": "#ffffff"
   },
-  "inks": ["#4fb3bf", "#e0a458", "#c8d8dc"],
-  "fonts": { "display": "outfit", "body": "outfit" },
-  "caps": false, "tracking": 0, "shape": "round",
+  "inks": [
+    "#4fb3bf",
+    "#e0a458",
+    "#c8d8dc"
+  ],
+  "fonts": {
+    "display": "outfit",
+    "body": "outfit"
+  },
+  "caps": false,
+  "tracking": 0,
+  "shape": "round",
   "backdrop": {
-    "sky": ["#0a0f12", "#0f181c", "#16242a"],
-    "glows": [
-      { "x": 15, "y": 85, "size": 60, "strength": 0.14, "color": "#e0a458" },
-      { "x": 85, "y": 30, "size": 50, "strength": 0.1, "color": "#4fb3bf" }
+    "sky": [
+      "#0a0f12",
+      "#0f181c",
+      "#16242a"
     ],
-    "stars": 0, "horizon": "city", "horizonColor": "#080c0f"
+    "glows": [
+      {
+        "x": 15,
+        "y": 85,
+        "size": 60,
+        "strength": 0.14,
+        "color": "#e0a458"
+      },
+      {
+        "x": 85,
+        "y": 30,
+        "size": 50,
+        "strength": 0.1,
+        "color": "#4fb3bf"
+      }
+    ],
+    "stars": 0,
+    "horizon": "city",
+    "horizonColor": "#080c0f"
   },
-  "particles": { "kind": "rain", "colors": ["#cfe3e8", "#9fc4cc"], "density": 1.1 }
+  "particles": {
+    "kind": "rain",
+    "colors": [
+      "#cfe3e8",
+      "#9fc4cc"
+    ],
+    "density": 1.1
+  }
 }

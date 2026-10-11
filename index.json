@@ -8,6 +8,7 @@
    "blurb": "Iron and charcoal lit from below: a forge at night, embers rising, condensed caps on hard panels.",
    "mode": "dark",
    "author": "Shell:B",
+   "authorUrl": "https://github.com/EveAeternam/Shell-B",
    "license": "MIT",
    "version": "1.0",
    "tags": [
@@ -15,6 +16,7 @@
     "warm",
     "dark"
    ],
+   "credits": [],
    "path": "themes/ember-forge/theme.json",
    "preview": "themes/ember-forge/preview.svg",
    "swatch": {
@@ -41,6 +43,7 @@
    "blurb": "Blue ice under a white sky: cold whites, glacier blue, snow pines and a light fall of snow.",
    "mode": "light",
    "author": "Shell:B",
+   "authorUrl": "https://github.com/EveAeternam/Shell-B",
    "license": "MIT",
    "version": "1.0",
    "tags": [
@@ -48,6 +51,7 @@
     "light",
     "cold"
    ],
+   "credits": [],
    "path": "themes/glacier/theme.json",
    "preview": "themes/glacier/preview.svg",
    "swatch": {
@@ -75,6 +79,7 @@
    "blurb": "A night of paper lanterns: plum dark, warm lights drifting over the hills, red and gold.",
    "mode": "dark",
    "author": "Shell:B",
+   "authorUrl": "https://github.com/EveAeternam/Shell-B",
    "license": "MIT",
    "version": "1.0",
    "tags": [
@@ -82,6 +87,7 @@
     "night",
     "warm"
    ],
+   "credits": [],
    "path": "themes/lantern-festival/theme.json",
    "preview": "themes/lantern-festival/preview.svg",
    "swatch": {
@@ -108,6 +114,7 @@
    "blurb": "The rains arrive over a slate-grey city: lamplight through wet glass, teal neon, water sheeting down.",
    "mode": "dark",
    "author": "Shell:B",
+   "authorUrl": "https://github.com/EveAeternam/Shell-B",
    "license": "MIT",
    "version": "1.0",
    "tags": [
@@ -115,6 +122,7 @@
     "city",
     "night"
    ],
+   "credits": [],
    "path": "themes/monsoon/theme.json",
    "preview": "themes/monsoon/preview.svg",
    "swatch": {
@@ -141,6 +149,7 @@
    "blurb": "A mossy wood after dark: greens on green, fireflies between the trunks, soft rounded shapes.",
    "mode": "dark",
    "author": "Shell:B",
+   "authorUrl": "https://github.com/EveAeternam/Shell-B",
    "license": "MIT",
    "version": "1.0",
    "tags": [
@@ -148,6 +157,7 @@
     "night",
     "green"
    ],
+   "credits": [],
    "path": "themes/moss/theme.json",
    "preview": "themes/moss/preview.svg",
    "swatch": {
@@ -174,6 +184,7 @@
    "blurb": "A mountaintop dome at midnight: brass instruments, the Milky Way overhead, the ridge line black against the sky.",
    "mode": "dark",
    "author": "Shell:B",
+   "authorUrl": "https://github.com/EveAeternam/Shell-B",
    "license": "MIT",
    "version": "1.0",
    "tags": [
@@ -181,6 +192,7 @@
     "night",
     "stars"
    ],
+   "credits": [],
    "path": "themes/observatory/theme.json",
    "preview": "themes/observatory/preview.svg",
    "swatch": {
@@ -207,6 +219,7 @@
    "blurb": "An editorial desk: cream stock, charcoal ink, one vermilion stamp. Serif headings, no backdrop, nothing moving.",
    "mode": "light",
    "author": "Shell:B",
+   "authorUrl": "https://github.com/EveAeternam/Shell-B",
    "license": "MIT",
    "version": "1.0",
    "tags": [
@@ -215,6 +228,7 @@
     "quiet",
     "serif"
    ],
+   "credits": [],
    "path": "themes/paper-and-ink/theme.json",
    "preview": "themes/paper-and-ink/preview.svg",
    "swatch": {
@@ -241,6 +255,7 @@
    "blurb": "Green phosphor on black glass: a monospaced console look with a faint tube glow and square corners.",
    "mode": "dark",
    "author": "Shell:B",
+   "authorUrl": "https://github.com/EveAeternam/Shell-B",
    "license": "MIT",
    "version": "1.0",
    "tags": [
@@ -248,6 +263,7 @@
     "retro",
     "mono"
    ],
+   "credits": [],
    "path": "themes/phosphor/theme.json",
    "preview": "themes/phosphor/preview.svg",
    "swatch": {
@@ -274,6 +290,7 @@
    "blurb": "Butter light through curtains, coffee and marmalade, a blue sky over green hills. Slow and warm.",
    "mode": "light",
    "author": "Shell:B",
+   "authorUrl": "https://github.com/EveAeternam/Shell-B",
    "license": "MIT",
    "version": "1.0",
    "tags": [
@@ -281,6 +298,7 @@
     "warm",
     "cosy"
    ],
+   "credits": [],
    "path": "themes/sunday-morning/theme.json",
    "preview": "themes/sunday-morning/preview.svg",
    "swatch": {
@@ -308,6 +326,7 @@
    "blurb": "A rock pool at low tide: sea-glass greens on wet sand, light bending through shallow water, bubbles rising.",
    "mode": "light",
    "author": "Shell:B",
+   "authorUrl": "https://github.com/EveAeternam/Shell-B",
    "license": "MIT",
    "version": "1.0",
    "tags": [
@@ -315,6 +334,7 @@
     "light",
     "calm"
    ],
+   "credits": [],
    "path": "themes/tidepool/theme.json",
    "preview": "themes/tidepool/preview.svg",
    "swatch": {

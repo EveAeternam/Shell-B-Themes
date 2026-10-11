@@ -3,21 +3,65 @@
   "blurb": "Blue ice under a white sky: cold whites, glacier blue, snow pines and a light fall of snow.",
   "mode": "light",
   "author": "Shell:B",
+  "authorUrl": "https://github.com/EveAeternam/Shell-B",
   "license": "MIT",
   "version": "1.0",
-  "tags": ["winter", "light", "cold"],
+  "tags": [
+    "winter",
+    "light",
+    "cold"
+  ],
   "palette": {
-    "bg": "#eef3f8", "panel": "#f8fbfe", "raised": "#dde6ef", "hover": "#cfdbe8", "code": "#f1f5f9",
-    "text": "#0f1c2b", "text2": "#45586c", "muted": "#5d6f82",
-    "accent": "#1f6fb5", "brand": "#3fa0b8", "line": "#0f1c2b"
+    "bg": "#eef3f8",
+    "panel": "#f8fbfe",
+    "raised": "#dde6ef",
+    "hover": "#cfdbe8",
+    "code": "#f1f5f9",
+    "text": "#0f1c2b",
+    "text2": "#45586c",
+    "muted": "#5d6f82",
+    "accent": "#1f6fb5",
+    "brand": "#3fa0b8",
+    "line": "#0f1c2b"
   },
-  "inks": ["#1f6fb5", "#3fa0b8", "#ffffff", "#9cc7e8"],
-  "fonts": { "display": "josefin-sans", "body": "inter" },
-  "caps": true, "tracking": 0.12, "shape": "hard",
+  "inks": [
+    "#1f6fb5",
+    "#3fa0b8",
+    "#ffffff",
+    "#9cc7e8"
+  ],
+  "fonts": {
+    "display": "josefin-sans",
+    "body": "inter"
+  },
+  "caps": true,
+  "tracking": 0.12,
+  "shape": "hard",
   "backdrop": {
-    "sky": ["#f7fbff", "#e3eef8", "#cfe0ef"],
-    "glows": [{ "x": 75, "y": 15, "size": 60, "strength": 0.25, "color": "#ffffff" }],
-    "stars": 0, "horizon": "snowpines", "horizonColor": "#7f99b3"
+    "sky": [
+      "#f7fbff",
+      "#e3eef8",
+      "#cfe0ef"
+    ],
+    "glows": [
+      {
+        "x": 75,
+        "y": 15,
+        "size": 60,
+        "strength": 0.25,
+        "color": "#ffffff"
+      }
+    ],
+    "stars": 0,
+    "horizon": "snowpines",
+    "horizonColor": "#7f99b3"
   },
-  "particles": { "kind": "snow", "colors": ["#ffffff", "#dbe9f5"], "density": 0.8 }
+  "particles": {
+    "kind": "snow",
+    "colors": [
+      "#ffffff",
+      "#dbe9f5"
+    ],
+    "density": 0.8
+  }
 }

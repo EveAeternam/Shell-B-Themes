@@ -3,24 +3,71 @@
   "blurb": "A mossy wood after dark: greens on green, fireflies between the trunks, soft rounded shapes.",
   "mode": "dark",
   "author": "Shell:B",
+  "authorUrl": "https://github.com/EveAeternam/Shell-B",
   "license": "MIT",
   "version": "1.0",
-  "tags": ["forest", "night", "green"],
+  "tags": [
+    "forest",
+    "night",
+    "green"
+  ],
   "palette": {
-    "bg": "#0e1510", "panel": "#142017", "raised": "#1b2a1f", "hover": "#233628", "code": "#0a100c",
-    "text": "#e6efe4", "text2": "#a9bda9", "muted": "#8ba08c",
-    "accent": "#9ccf5c", "brand": "#4fb08a", "line": "#ffffff"
+    "bg": "#0e1510",
+    "panel": "#142017",
+    "raised": "#1b2a1f",
+    "hover": "#233628",
+    "code": "#0a100c",
+    "text": "#e6efe4",
+    "text2": "#a9bda9",
+    "muted": "#8ba08c",
+    "accent": "#9ccf5c",
+    "brand": "#4fb08a",
+    "line": "#ffffff"
   },
-  "inks": ["#9ccf5c", "#4fb08a", "#e8d27a"],
-  "fonts": { "display": "zen-maru-gothic", "body": "zen-maru-gothic" },
-  "caps": false, "tracking": 0, "shape": "round",
+  "inks": [
+    "#9ccf5c",
+    "#4fb08a",
+    "#e8d27a"
+  ],
+  "fonts": {
+    "display": "zen-maru-gothic",
+    "body": "zen-maru-gothic"
+  },
+  "caps": false,
+  "tracking": 0,
+  "shape": "round",
   "backdrop": {
-    "sky": ["#070c08", "#0e1510", "#16241a"],
-    "glows": [
-      { "x": 60, "y": 10, "size": 60, "strength": 0.1, "color": "#9ccf5c" },
-      { "x": 20, "y": 70, "size": 50, "strength": 0.08, "color": "#4fb08a" }
+    "sky": [
+      "#070c08",
+      "#0e1510",
+      "#16241a"
     ],
-    "stars": 0.2, "horizon": "forest", "horizonColor": "#060a07"
+    "glows": [
+      {
+        "x": 60,
+        "y": 10,
+        "size": 60,
+        "strength": 0.1,
+        "color": "#9ccf5c"
+      },
+      {
+        "x": 20,
+        "y": 70,
+        "size": 50,
+        "strength": 0.08,
+        "color": "#4fb08a"
+      }
+    ],
+    "stars": 0.2,
+    "horizon": "forest",
+    "horizonColor": "#060a07"
   },
-  "particles": { "kind": "fireflies", "colors": ["#e8d27a", "#c9e86a"], "density": 1 }
+  "particles": {
+    "kind": "fireflies",
+    "colors": [
+      "#e8d27a",
+      "#c9e86a"
+    ],
+    "density": 1
+  }
 }

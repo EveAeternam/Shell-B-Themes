@@ -3,24 +3,68 @@
   "blurb": "A mountaintop dome at midnight: brass instruments, the Milky Way overhead, the ridge line black against the sky.",
   "mode": "dark",
   "author": "Shell:B",
+  "authorUrl": "https://github.com/EveAeternam/Shell-B",
   "license": "MIT",
   "version": "1.0",
-  "tags": ["space", "night", "stars"],
+  "tags": [
+    "space",
+    "night",
+    "stars"
+  ],
   "palette": {
-    "bg": "#0b1020", "panel": "#111a2e", "raised": "#182239", "hover": "#1f2b46", "code": "#080c18",
-    "text": "#e9ecf5", "text2": "#aab4cc", "muted": "#8b96b0",
-    "accent": "#d8a24a", "brand": "#6e8bd9", "line": "#ffffff"
+    "bg": "#0b1020",
+    "panel": "#111a2e",
+    "raised": "#182239",
+    "hover": "#1f2b46",
+    "code": "#080c18",
+    "text": "#e9ecf5",
+    "text2": "#aab4cc",
+    "muted": "#8b96b0",
+    "accent": "#d8a24a",
+    "brand": "#6e8bd9",
+    "line": "#ffffff"
   },
-  "inks": ["#d8a24a", "#6e8bd9", "#ffffff"],
-  "fonts": { "display": "syncopate", "body": "inter" },
-  "caps": true, "tracking": 0.14, "shape": "hard",
+  "inks": [
+    "#d8a24a",
+    "#6e8bd9",
+    "#ffffff"
+  ],
+  "fonts": {
+    "display": "syncopate",
+    "body": "inter"
+  },
+  "caps": true,
+  "tracking": 0.14,
+  "shape": "hard",
   "backdrop": {
-    "sky": ["#05070f", "#0b1020", "#121a33"],
-    "glows": [
-      { "x": 65, "y": 20, "size": 70, "strength": 0.12, "color": "#8ea4ff" },
-      { "x": 30, "y": 60, "size": 50, "strength": 0.08, "color": "#d8a24a" }
+    "sky": [
+      "#05070f",
+      "#0b1020",
+      "#121a33"
     ],
-    "stars": 0.9, "horizon": "mountains", "horizonColor": "#060912"
+    "glows": [
+      {
+        "x": 65,
+        "y": 20,
+        "size": 70,
+        "strength": 0.12,
+        "color": "#8ea4ff"
+      },
+      {
+        "x": 30,
+        "y": 60,
+        "size": 50,
+        "strength": 0.08,
+        "color": "#d8a24a"
+      }
+    ],
+    "stars": 0.9,
+    "horizon": "mountains",
+    "horizonColor": "#060912"
   },
-  "particles": { "kind": "none", "colors": [], "density": 1 }
+  "particles": {
+    "kind": "none",
+    "colors": [],
+    "density": 1
+  }
 }

@@ -3,24 +3,72 @@
   "blurb": "Iron and charcoal lit from below: a forge at night, embers rising, condensed caps on hard panels.",
   "mode": "dark",
   "author": "Shell:B",
+  "authorUrl": "https://github.com/EveAeternam/Shell-B",
   "license": "MIT",
   "version": "1.0",
-  "tags": ["industrial", "warm", "dark"],
+  "tags": [
+    "industrial",
+    "warm",
+    "dark"
+  ],
   "palette": {
-    "bg": "#161210", "panel": "#1d1815", "raised": "#26201c", "hover": "#302823", "code": "#100d0b",
-    "text": "#f1e7dc", "text2": "#bfae9f", "muted": "#a08f82",
-    "accent": "#ff7a2f", "brand": "#d9a441", "line": "#ffffff"
+    "bg": "#161210",
+    "panel": "#1d1815",
+    "raised": "#26201c",
+    "hover": "#302823",
+    "code": "#100d0b",
+    "text": "#f1e7dc",
+    "text2": "#bfae9f",
+    "muted": "#a08f82",
+    "accent": "#ff7a2f",
+    "brand": "#d9a441",
+    "line": "#ffffff"
   },
-  "inks": ["#ff7a2f", "#d9a441", "#5c1f0f"],
-  "fonts": { "display": "barlow-condensed", "body": "barlow" },
-  "caps": true, "tracking": 0.1, "shape": "hard",
+  "inks": [
+    "#ff7a2f",
+    "#d9a441",
+    "#5c1f0f"
+  ],
+  "fonts": {
+    "display": "barlow-condensed",
+    "body": "barlow"
+  },
+  "caps": true,
+  "tracking": 0.1,
+  "shape": "hard",
   "backdrop": {
-    "sky": ["#0f0b09", "#161210", "#241611"],
-    "glows": [
-      { "x": 50, "y": 100, "size": 80, "strength": 0.22, "color": "#ff5a1f" },
-      { "x": 20, "y": 20, "size": 40, "strength": 0.06, "color": "#d9a441" }
+    "sky": [
+      "#0f0b09",
+      "#161210",
+      "#241611"
     ],
-    "stars": 0, "horizon": "none", "horizonColor": "#000000"
+    "glows": [
+      {
+        "x": 50,
+        "y": 100,
+        "size": 80,
+        "strength": 0.22,
+        "color": "#ff5a1f"
+      },
+      {
+        "x": 20,
+        "y": 20,
+        "size": 40,
+        "strength": 0.06,
+        "color": "#d9a441"
+      }
+    ],
+    "stars": 0,
+    "horizon": "none",
+    "horizonColor": "#000000"
   },
-  "particles": { "kind": "embers", "colors": ["#ff7a2f", "#ffb347", "#ff3d1f"], "density": 1 }
+  "particles": {
+    "kind": "embers",
+    "colors": [
+      "#ff7a2f",
+      "#ffb347",
+      "#ff3d1f"
+    ],
+    "density": 1
+  }
 }

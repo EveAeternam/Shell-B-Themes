@@ -1,16 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180">
-<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0.00" stop-color="#0f0b09"/><stop offset="0.50" stop-color="#161210"/><stop offset="1.00" stop-color="#241611"/></linearGradient>
-<linearGradient id="btn" x1="0" y1="0" x2="1" y2="0"><stop offset="0.00" stop-color="#ff7a2f"/><stop offset="0.50" stop-color="#d9a441"/><stop offset="1.00" stop-color="#5c1f0f"/></linearGradient></defs>
-<rect width="320" height="180" rx="2" fill="url(#sky)"/>
-<rect x="0" y="0" width="44" height="180" fill="#1d1815"/>
-<rect x="44" y="0" width="84" height="180" fill="#1d1815" opacity="0.6"/>
-<rect x="56" y="18" width="60" height="5" rx="2" fill="#f1e7dc" opacity="0.5"/>
-<rect x="56" y="34" width="52" height="5" rx="2" fill="#f1e7dc" opacity="0.25"/>
-<rect x="56" y="50" width="56" height="5" rx="2" fill="#f1e7dc" opacity="0.25"/>
-<rect x="56" y="66" width="44" height="5" rx="2" fill="#f1e7dc" opacity="0.25"/>
-<text x="144" y="46" font-family="'Barlow Condensed', sans-serif" font-size="18" font-weight="600" fill="#f1e7dc" style="text-transform:uppercase;letter-spacing:0.12em;">Good evening</text>
-<rect x="144.0" y="62" width="21.3" height="4" fill="#ff7a2f"/><rect x="165.3" y="62" width="21.3" height="4" fill="#d9a441"/><rect x="186.7" y="62" width="21.3" height="4" fill="#5c1f0f"/>
-<rect x="144" y="84" width="152" height="22" rx="2" fill="#1d1815" stroke="#f1e7dc" stroke-opacity="0.13"/>
-<rect x="144" y="114" width="118" height="22" rx="2" fill="#1d1815" stroke="#f1e7dc" stroke-opacity="0.13"/>
-<rect x="228" y="148" width="68" height="18" rx="0" fill="url(#btn)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="270" viewBox="0 0 480 270" role="img" aria-label="Ember Forge">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0.00" stop-color="#0f0b09"/><stop offset="0.50" stop-color="#161210"/><stop offset="1.00" stop-color="#241611"/></linearGradient><linearGradient id="btn" x1="0" y1="0" x2="1" y2="0"><stop offset="0.00" stop-color="#ff7a2f"/><stop offset="0.50" stop-color="#d9a441"/><stop offset="1.00" stop-color="#5c1f0f"/></linearGradient><radialGradient id="g0"><stop offset="0" stop-color="#ff5a1f" stop-opacity="0.22"/><stop offset="0.7" stop-color="#ff5a1f" stop-opacity="0"/></radialGradient><radialGradient id="g1"><stop offset="0" stop-color="#d9a441" stop-opacity="0.06"/><stop offset="0.7" stop-color="#d9a441" stop-opacity="0"/></radialGradient></defs>
+<rect width="480" height="270" fill="url(#sky)"/>
+<ellipse cx="240.0" cy="270.0" rx="384.0" ry="162.0" fill="url(#g0)"/>
+<ellipse cx="96.0" cy="54.0" rx="192.0" ry="81.0" fill="url(#g1)"/>
+<rect x="0" y="0" width="44" height="270" fill="#1d1815" fill-opacity="0.92"/>
+<rect x="12" y="12" width="20" height="20" rx="2" fill="url(#btn)"/>
+<rect x="44" y="0" width="100" height="270" fill="#1d1815" fill-opacity="0.6"/>
+<rect x="44" y="0" width="1" height="270" fill="#f1e7dc" fill-opacity="0.1"/>
+<rect x="56" y="20" width="76" height="6" rx="3" fill="#f1e7dc" fill-opacity="0.55"/>
+<rect x="56" y="40" width="64" height="5" rx="2.5" fill="#f1e7dc" fill-opacity="0.25"/>
+<rect x="56" y="56" width="70" height="5" rx="2.5" fill="#f1e7dc" fill-opacity="0.25"/>
+<rect x="56" y="72" width="58" height="5" rx="2.5" fill="#f1e7dc" fill-opacity="0.25"/>
+<rect x="56" y="88" width="66" height="5" rx="2.5" fill="#f1e7dc" fill-opacity="0.25"/>
+<text x="170" y="70" font-family="&#x27;Barlow Condensed&#x27;, sans-serif" font-size="22" font-weight="600" fill="#f1e7dc" style="text-transform:uppercase;letter-spacing:1.7px;">Good evening</text>
+<rect x="170.0" y="88" width="24.0" height="4" fill="#ff7a2f"/><rect x="194.0" y="88" width="24.0" height="4" fill="#d9a441"/><rect x="218.0" y="88" width="24.0" height="4" fill="#5c1f0f"/>
+<rect x="170" y="110" width="250" height="40" rx="2" fill="#1d1815" fill-opacity="0.86" stroke="#f1e7dc" stroke-opacity="0.1"/>
+<rect x="184" y="122" width="150" height="5" rx="2.5" fill="#f1e7dc" fill-opacity="0.6"/>
+<rect x="184" y="134" width="200" height="5" rx="2.5" fill="#bfae9f" fill-opacity="0.6"/>
+<rect x="170" y="160" width="190" height="34" rx="2" fill="#1d1815" fill-opacity="0.86" stroke="#f1e7dc" stroke-opacity="0.1"/>
+<rect x="184" y="172" width="120" height="5" rx="2.5" fill="#f1e7dc" fill-opacity="0.6"/>
+<rect x="184" y="183" width="90" height="4" rx="2" fill="#ff7a2f" fill-opacity="0.9"/>
+<rect x="170" y="224" width="290" height="30" rx="2" fill="#26201c" fill-opacity="0.95" stroke="#f1e7dc" stroke-opacity="0.1"/>
+<rect x="184" y="236" width="110" height="5" rx="2.5" fill="#a08f82" fill-opacity="0.6"/>
+<rect x="414" y="230" width="38" height="18" rx="0" fill="url(#btn)"/>
 </svg>
