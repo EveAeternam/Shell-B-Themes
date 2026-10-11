@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/EveAeternam/Shell-B-Themes/theme.schema.json",
+  "$id": "https://github.com/ShellB-App/Shell-B-Themes/theme.schema.json",
   "title": "Shell:B theme",
   "type": "object",
   "required": ["name", "mode", "palette", "author", "license"],

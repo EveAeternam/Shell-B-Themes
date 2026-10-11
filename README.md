@@ -1,9 +1,9 @@
 # Shell:B Themes
 
-[![Validate](https://github.com/EveAeternam/Shell-B-Themes/actions/workflows/validate.yml/badge.svg)](https://github.com/EveAeternam/Shell-B-Themes/actions/workflows/validate.yml) [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Validate](https://github.com/ShellB-App/Shell-B-Themes/actions/workflows/validate.yml/badge.svg)](https://github.com/ShellB-App/Shell-B-Themes/actions/workflows/validate.yml) [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Community themes for [Shell:B](https://github.com/EveAeternam/Shell-B), the local-first AI workspace.
-Part of the family with [Shell-B-Screensavers](https://github.com/EveAeternam/Shell-B-Screensavers) and [Shell-B-Agents](https://github.com/EveAeternam/Shell-B-Agents).
+Community themes for [Shell:B](https://github.com/ShellB-App/Shell-B), the local-first AI workspace.
+Part of the family with [Shell-B-Screensavers](https://github.com/ShellB-App/Shell-B-Screensavers) and [Shell-B-Agents](https://github.com/ShellB-App/Shell-B-Agents).
 
 A Shell:B theme is **data, not CSS**: a palette, two fonts from a fixed list, a corner shape, a backdrop (sky gradient,
 soft glows, stars, a horizon silhouette) and a particle layer drifting behind the app. Shell:B turns that into a
@@ -26,22 +26,22 @@ Click a preview to open its `theme.json`. The gallery below, `index.json` and ev
 <!-- gallery:start -->
 <table>
 <tr>
-<td align="center" valign="top" width="33%"><a href="themes/ember-forge/theme.json"><img src="themes/ember-forge/preview.svg" alt="Ember Forge" width="100%"></a><br><b>Ember Forge</b> · dark<br><sub>by <a href="https://github.com/EveAeternam/Shell-B">Shell:B</a> · MIT</sub></td>
-<td align="center" valign="top" width="33%"><a href="themes/glacier/theme.json"><img src="themes/glacier/preview.svg" alt="Glacier" width="100%"></a><br><b>Glacier</b> · light<br><sub>by <a href="https://github.com/EveAeternam/Shell-B">Shell:B</a> · MIT</sub></td>
-<td align="center" valign="top" width="33%"><a href="themes/lantern-festival/theme.json"><img src="themes/lantern-festival/preview.svg" alt="Lantern Festival" width="100%"></a><br><b>Lantern Festival</b> · dark<br><sub>by <a href="https://github.com/EveAeternam/Shell-B">Shell:B</a> · MIT</sub></td>
+<td align="center" valign="top" width="33%"><a href="themes/ember-forge/theme.json"><img src="themes/ember-forge/preview.svg" alt="Ember Forge" width="100%"></a><br><b>Ember Forge</b> · dark<br><sub>by <a href="https://github.com/ShellB-App/Shell-B">Shell:B</a> · MIT</sub></td>
+<td align="center" valign="top" width="33%"><a href="themes/glacier/theme.json"><img src="themes/glacier/preview.svg" alt="Glacier" width="100%"></a><br><b>Glacier</b> · light<br><sub>by <a href="https://github.com/ShellB-App/Shell-B">Shell:B</a> · MIT</sub></td>
+<td align="center" valign="top" width="33%"><a href="themes/lantern-festival/theme.json"><img src="themes/lantern-festival/preview.svg" alt="Lantern Festival" width="100%"></a><br><b>Lantern Festival</b> · dark<br><sub>by <a href="https://github.com/ShellB-App/Shell-B">Shell:B</a> · MIT</sub></td>
 </tr>
 <tr>
-<td align="center" valign="top" width="33%"><a href="themes/monsoon/theme.json"><img src="themes/monsoon/preview.svg" alt="Monsoon" width="100%"></a><br><b>Monsoon</b> · dark<br><sub>by <a href="https://github.com/EveAeternam/Shell-B">Shell:B</a> · MIT</sub></td>
-<td align="center" valign="top" width="33%"><a href="themes/moss/theme.json"><img src="themes/moss/preview.svg" alt="Moss" width="100%"></a><br><b>Moss</b> · dark<br><sub>by <a href="https://github.com/EveAeternam/Shell-B">Shell:B</a> · MIT</sub></td>
-<td align="center" valign="top" width="33%"><a href="themes/observatory/theme.json"><img src="themes/observatory/preview.svg" alt="Observatory" width="100%"></a><br><b>Observatory</b> · dark<br><sub>by <a href="https://github.com/EveAeternam/Shell-B">Shell:B</a> · MIT</sub></td>
+<td align="center" valign="top" width="33%"><a href="themes/monsoon/theme.json"><img src="themes/monsoon/preview.svg" alt="Monsoon" width="100%"></a><br><b>Monsoon</b> · dark<br><sub>by <a href="https://github.com/ShellB-App/Shell-B">Shell:B</a> · MIT</sub></td>
+<td align="center" valign="top" width="33%"><a href="themes/moss/theme.json"><img src="themes/moss/preview.svg" alt="Moss" width="100%"></a><br><b>Moss</b> · dark<br><sub>by <a href="https://github.com/ShellB-App/Shell-B">Shell:B</a> · MIT</sub></td>
+<td align="center" valign="top" width="33%"><a href="themes/observatory/theme.json"><img src="themes/observatory/preview.svg" alt="Observatory" width="100%"></a><br><b>Observatory</b> · dark<br><sub>by <a href="https://github.com/ShellB-App/Shell-B">Shell:B</a> · MIT</sub></td>
 </tr>
 <tr>
-<td align="center" valign="top" width="33%"><a href="themes/paper-and-ink/theme.json"><img src="themes/paper-and-ink/preview.svg" alt="Paper &amp; Ink" width="100%"></a><br><b>Paper &amp; Ink</b> · light<br><sub>by <a href="https://github.com/EveAeternam/Shell-B">Shell:B</a> · MIT</sub></td>
-<td align="center" valign="top" width="33%"><a href="themes/phosphor/theme.json"><img src="themes/phosphor/preview.svg" alt="Phosphor" width="100%"></a><br><b>Phosphor</b> · dark<br><sub>by <a href="https://github.com/EveAeternam/Shell-B">Shell:B</a> · MIT</sub></td>
-<td align="center" valign="top" width="33%"><a href="themes/sunday-morning/theme.json"><img src="themes/sunday-morning/preview.svg" alt="Sunday Morning" width="100%"></a><br><b>Sunday Morning</b> · light<br><sub>by <a href="https://github.com/EveAeternam/Shell-B">Shell:B</a> · MIT</sub></td>
+<td align="center" valign="top" width="33%"><a href="themes/paper-and-ink/theme.json"><img src="themes/paper-and-ink/preview.svg" alt="Paper &amp; Ink" width="100%"></a><br><b>Paper &amp; Ink</b> · light<br><sub>by <a href="https://github.com/ShellB-App/Shell-B">Shell:B</a> · MIT</sub></td>
+<td align="center" valign="top" width="33%"><a href="themes/phosphor/theme.json"><img src="themes/phosphor/preview.svg" alt="Phosphor" width="100%"></a><br><b>Phosphor</b> · dark<br><sub>by <a href="https://github.com/ShellB-App/Shell-B">Shell:B</a> · MIT</sub></td>
+<td align="center" valign="top" width="33%"><a href="themes/sunday-morning/theme.json"><img src="themes/sunday-morning/preview.svg" alt="Sunday Morning" width="100%"></a><br><b>Sunday Morning</b> · light<br><sub>by <a href="https://github.com/ShellB-App/Shell-B">Shell:B</a> · MIT</sub></td>
 </tr>
 <tr>
-<td align="center" valign="top" width="33%"><a href="themes/tidepool/theme.json"><img src="themes/tidepool/preview.svg" alt="Tidepool" width="100%"></a><br><b>Tidepool</b> · light<br><sub>by <a href="https://github.com/EveAeternam/Shell-B">Shell:B</a> · MIT</sub></td>
+<td align="center" valign="top" width="33%"><a href="themes/tidepool/theme.json"><img src="themes/tidepool/preview.svg" alt="Tidepool" width="100%"></a><br><b>Tidepool</b> · light<br><sub>by <a href="https://github.com/ShellB-App/Shell-B">Shell:B</a> · MIT</sub></td>
 </tr>
 </table>
 <!-- gallery:end -->
@@ -133,4 +133,4 @@ match the app; they are the ten `backdrop.horizon` choices.
 
 ## Other collections
 
-Shell:B installs from the whole family: [Shell-B-Screensavers](https://github.com/EveAeternam/Shell-B-Screensavers) and [Shell-B-Agents](https://github.com/EveAeternam/Shell-B-Agents) work the same way, with a validator, CI and a one-screen checklist each. Found a bug in the app itself? That goes to [Shell-B issues](https://github.com/EveAeternam/Shell-B/issues); questions and show-and-tell to [Discussions](https://github.com/EveAeternam/Shell-B/discussions).
+Shell:B installs from the whole family: [Shell-B-Screensavers](https://github.com/ShellB-App/Shell-B-Screensavers) and [Shell-B-Agents](https://github.com/ShellB-App/Shell-B-Agents) work the same way, with a validator, CI and a one-screen checklist each. Found a bug in the app itself? That goes to [Shell-B issues](https://github.com/ShellB-App/Shell-B/issues); questions and show-and-tell to [Discussions](https://github.com/ShellB-App/Shell-B/discussions).
