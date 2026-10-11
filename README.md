@@ -1,6 +1,9 @@
 # Shell:B Themes
 
+[![Validate](https://github.com/EveAeternam/Shell-B-Themes/actions/workflows/validate.yml/badge.svg)](https://github.com/EveAeternam/Shell-B-Themes/actions/workflows/validate.yml) [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Community themes for [Shell:B](https://github.com/EveAeternam/Shell-B), the local-first AI workspace.
+Part of the family with [Shell-B-Screensavers](https://github.com/EveAeternam/Shell-B-Screensavers) and [Shell-B-Agents](https://github.com/EveAeternam/Shell-B-Agents).
 
 A Shell:B theme is **data, not CSS**: a palette, two fonts from a fixed list, a corner shape, a backdrop (sky gradient,
 soft glows, stars, a horizon silhouette) and a particle layer drifting behind the app. Shell:B turns that into a
@@ -106,3 +109,7 @@ checklist. The formal schema is in [theme.schema.json](theme.schema.json).
 ## License
 
 The scripts and this repository are MIT. Each theme names its own license in `theme.json`; the ones here are MIT too.
+
+## Other collections
+
+Shell:B installs from the whole family: [Shell-B-Screensavers](https://github.com/EveAeternam/Shell-B-Screensavers) and [Shell-B-Agents](https://github.com/EveAeternam/Shell-B-Agents) work the same way, with a validator, CI and a one-screen checklist each. Found a bug in the app itself? That goes to [Shell-B issues](https://github.com/EveAeternam/Shell-B/issues); questions and show-and-tell to [Discussions](https://github.com/EveAeternam/Shell-B/discussions).
