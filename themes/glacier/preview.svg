@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0.00" stop-color="#f7fbff"/><stop offset="0.50" stop-color="#e3eef8"/><stop offset="1.00" stop-color="#cfe0ef"/></linearGradient>
+<linearGradient id="btn" x1="0" y1="0" x2="1" y2="0"><stop offset="0.00" stop-color="#1f6fb5"/><stop offset="0.33" stop-color="#3fa0b8"/><stop offset="0.67" stop-color="#ffffff"/><stop offset="1.00" stop-color="#9cc7e8"/></linearGradient></defs>
+<rect width="320" height="180" rx="2" fill="url(#sky)"/>
+<rect x="0" y="0" width="44" height="180" fill="#f8fbfe"/>
+<rect x="44" y="0" width="84" height="180" fill="#f8fbfe" opacity="0.6"/>
+<rect x="56" y="18" width="60" height="5" rx="2" fill="#0f1c2b" opacity="0.5"/>
+<rect x="56" y="34" width="52" height="5" rx="2" fill="#0f1c2b" opacity="0.25"/>
+<rect x="56" y="50" width="56" height="5" rx="2" fill="#0f1c2b" opacity="0.25"/>
+<rect x="56" y="66" width="44" height="5" rx="2" fill="#0f1c2b" opacity="0.25"/>
+<text x="144" y="46" font-family="'Josefin Sans', sans-serif" font-size="18" font-weight="600" fill="#0f1c2b" style="text-transform:uppercase;letter-spacing:0.12em;">Good evening</text>
+<rect x="144.0" y="62" width="16.0" height="4" fill="#1f6fb5"/><rect x="160.0" y="62" width="16.0" height="4" fill="#3fa0b8"/><rect x="176.0" y="62" width="16.0" height="4" fill="#ffffff"/><rect x="192.0" y="62" width="16.0" height="4" fill="#9cc7e8"/>
+<rect x="144" y="84" width="152" height="22" rx="2" fill="#f8fbfe" stroke="#0f1c2b" stroke-opacity="0.13"/>
+<rect x="144" y="114" width="118" height="22" rx="2" fill="#f8fbfe" stroke="#0f1c2b" stroke-opacity="0.13"/>
+<rect x="228" y="148" width="68" height="18" rx="0" fill="url(#btn)"/>
+</svg>

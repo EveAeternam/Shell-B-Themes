@@ -1,0 +1,26 @@
+{
+  "name": "Sunday Morning",
+  "blurb": "Butter light through curtains, coffee and marmalade, a blue sky over green hills. Slow and warm.",
+  "mode": "light",
+  "author": "Shell:B",
+  "license": "MIT",
+  "version": "1.0",
+  "tags": ["light", "warm", "cosy"],
+  "palette": {
+    "bg": "#fbf6ea", "panel": "#fffdf6", "raised": "#f2ead8", "hover": "#e9dfc8", "code": "#f7f2e6",
+    "text": "#2a2419", "text2": "#625844", "muted": "#776c57",
+    "accent": "#d4702b", "brand": "#5b9bd5", "line": "#2a2419"
+  },
+  "inks": ["#d4702b", "#f2c14e", "#5b9bd5", "#fffdf6"],
+  "fonts": { "display": "outfit", "body": "outfit" },
+  "caps": false, "tracking": 0, "shape": "round",
+  "backdrop": {
+    "sky": ["#fffaf0", "#fbf3e2", "#f6ead2"],
+    "glows": [
+      { "x": 85, "y": 10, "size": 60, "strength": 0.3, "color": "#ffe8a0" },
+      { "x": 15, "y": 90, "size": 60, "strength": 0.12, "color": "#5b9bd5" }
+    ],
+    "stars": 0, "horizon": "hills", "horizonColor": "#c9d9a8"
+  },
+  "particles": { "kind": "bokeh", "colors": ["#ffe8a0", "#ffffff", "#f2c14e"], "density": 0.6 }
+}

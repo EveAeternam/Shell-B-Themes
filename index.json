@@ -1,0 +1,340 @@
+{
+ "format": 1,
+ "kind": "theme",
+ "items": [
+  {
+   "id": "ember-forge",
+   "name": "Ember Forge",
+   "blurb": "Iron and charcoal lit from below: a forge at night, embers rising, condensed caps on hard panels.",
+   "mode": "dark",
+   "author": "Shell:B",
+   "license": "MIT",
+   "version": "1.0",
+   "tags": [
+    "industrial",
+    "warm",
+    "dark"
+   ],
+   "path": "themes/ember-forge/theme.json",
+   "preview": "themes/ember-forge/preview.svg",
+   "swatch": {
+    "bg": "#161210",
+    "panel": "#1d1815",
+    "text": "#f1e7dc",
+    "inks": [
+     "#ff7a2f",
+     "#d9a441",
+     "#5c1f0f"
+    ]
+   },
+   "fonts": {
+    "display": "barlow-condensed",
+    "body": "barlow"
+   },
+   "shape": "hard",
+   "particles": "embers",
+   "horizon": "none"
+  },
+  {
+   "id": "glacier",
+   "name": "Glacier",
+   "blurb": "Blue ice under a white sky: cold whites, glacier blue, snow pines and a light fall of snow.",
+   "mode": "light",
+   "author": "Shell:B",
+   "license": "MIT",
+   "version": "1.0",
+   "tags": [
+    "winter",
+    "light",
+    "cold"
+   ],
+   "path": "themes/glacier/theme.json",
+   "preview": "themes/glacier/preview.svg",
+   "swatch": {
+    "bg": "#eef3f8",
+    "panel": "#f8fbfe",
+    "text": "#0f1c2b",
+    "inks": [
+     "#1f6fb5",
+     "#3fa0b8",
+     "#ffffff",
+     "#9cc7e8"
+    ]
+   },
+   "fonts": {
+    "display": "josefin-sans",
+    "body": "inter"
+   },
+   "shape": "hard",
+   "particles": "snow",
+   "horizon": "snowpines"
+  },
+  {
+   "id": "lantern-festival",
+   "name": "Lantern Festival",
+   "blurb": "A night of paper lanterns: plum dark, warm lights drifting over the hills, red and gold.",
+   "mode": "dark",
+   "author": "Shell:B",
+   "license": "MIT",
+   "version": "1.0",
+   "tags": [
+    "festival",
+    "night",
+    "warm"
+   ],
+   "path": "themes/lantern-festival/theme.json",
+   "preview": "themes/lantern-festival/preview.svg",
+   "swatch": {
+    "bg": "#1a0f1e",
+    "panel": "#231527",
+    "text": "#f6e9e3",
+    "inks": [
+     "#e3493a",
+     "#f0b64a",
+     "#ffd9a0"
+    ]
+   },
+   "fonts": {
+    "display": "shippori-mincho",
+    "body": "shippori-mincho"
+   },
+   "shape": "soft",
+   "particles": "bokeh",
+   "horizon": "hills"
+  },
+  {
+   "id": "monsoon",
+   "name": "Monsoon",
+   "blurb": "The rains arrive over a slate-grey city: lamplight through wet glass, teal neon, water sheeting down.",
+   "mode": "dark",
+   "author": "Shell:B",
+   "license": "MIT",
+   "version": "1.0",
+   "tags": [
+    "rain",
+    "city",
+    "night"
+   ],
+   "path": "themes/monsoon/theme.json",
+   "preview": "themes/monsoon/preview.svg",
+   "swatch": {
+    "bg": "#0f1518",
+    "panel": "#151e23",
+    "text": "#e4ecee",
+    "inks": [
+     "#4fb3bf",
+     "#e0a458",
+     "#c8d8dc"
+    ]
+   },
+   "fonts": {
+    "display": "outfit",
+    "body": "outfit"
+   },
+   "shape": "round",
+   "particles": "rain",
+   "horizon": "city"
+  },
+  {
+   "id": "moss",
+   "name": "Moss",
+   "blurb": "A mossy wood after dark: greens on green, fireflies between the trunks, soft rounded shapes.",
+   "mode": "dark",
+   "author": "Shell:B",
+   "license": "MIT",
+   "version": "1.0",
+   "tags": [
+    "forest",
+    "night",
+    "green"
+   ],
+   "path": "themes/moss/theme.json",
+   "preview": "themes/moss/preview.svg",
+   "swatch": {
+    "bg": "#0e1510",
+    "panel": "#142017",
+    "text": "#e6efe4",
+    "inks": [
+     "#9ccf5c",
+     "#4fb08a",
+     "#e8d27a"
+    ]
+   },
+   "fonts": {
+    "display": "zen-maru-gothic",
+    "body": "zen-maru-gothic"
+   },
+   "shape": "round",
+   "particles": "fireflies",
+   "horizon": "forest"
+  },
+  {
+   "id": "observatory",
+   "name": "Observatory",
+   "blurb": "A mountaintop dome at midnight: brass instruments, the Milky Way overhead, the ridge line black against the sky.",
+   "mode": "dark",
+   "author": "Shell:B",
+   "license": "MIT",
+   "version": "1.0",
+   "tags": [
+    "space",
+    "night",
+    "stars"
+   ],
+   "path": "themes/observatory/theme.json",
+   "preview": "themes/observatory/preview.svg",
+   "swatch": {
+    "bg": "#0b1020",
+    "panel": "#111a2e",
+    "text": "#e9ecf5",
+    "inks": [
+     "#d8a24a",
+     "#6e8bd9",
+     "#ffffff"
+    ]
+   },
+   "fonts": {
+    "display": "syncopate",
+    "body": "inter"
+   },
+   "shape": "hard",
+   "particles": "none",
+   "horizon": "mountains"
+  },
+  {
+   "id": "paper-and-ink",
+   "name": "Paper & Ink",
+   "blurb": "An editorial desk: cream stock, charcoal ink, one vermilion stamp. Serif headings, no backdrop, nothing moving.",
+   "mode": "light",
+   "author": "Shell:B",
+   "license": "MIT",
+   "version": "1.0",
+   "tags": [
+    "editorial",
+    "light",
+    "quiet",
+    "serif"
+   ],
+   "path": "themes/paper-and-ink/theme.json",
+   "preview": "themes/paper-and-ink/preview.svg",
+   "swatch": {
+    "bg": "#f6f1e7",
+    "panel": "#fbf8f1",
+    "text": "#1f1b17",
+    "inks": [
+     "#1f1b17",
+     "#b3301e",
+     "#2f4a6e"
+    ]
+   },
+   "fonts": {
+    "display": "cormorant-garamond",
+    "body": "georgia"
+   },
+   "shape": "soft",
+   "particles": "none",
+   "horizon": "none"
+  },
+  {
+   "id": "phosphor",
+   "name": "Phosphor",
+   "blurb": "Green phosphor on black glass: a monospaced console look with a faint tube glow and square corners.",
+   "mode": "dark",
+   "author": "Shell:B",
+   "license": "MIT",
+   "version": "1.0",
+   "tags": [
+    "terminal",
+    "retro",
+    "mono"
+   ],
+   "path": "themes/phosphor/theme.json",
+   "preview": "themes/phosphor/preview.svg",
+   "swatch": {
+    "bg": "#0a0f0a",
+    "panel": "#0f160f",
+    "text": "#d8f5d8",
+    "inks": [
+     "#39ff88",
+     "#0a0f0a",
+     "#7fd7ff"
+    ]
+   },
+   "fonts": {
+    "display": "jetbrains-mono",
+    "body": "inter"
+   },
+   "shape": "hard",
+   "particles": "none",
+   "horizon": "none"
+  },
+  {
+   "id": "sunday-morning",
+   "name": "Sunday Morning",
+   "blurb": "Butter light through curtains, coffee and marmalade, a blue sky over green hills. Slow and warm.",
+   "mode": "light",
+   "author": "Shell:B",
+   "license": "MIT",
+   "version": "1.0",
+   "tags": [
+    "light",
+    "warm",
+    "cosy"
+   ],
+   "path": "themes/sunday-morning/theme.json",
+   "preview": "themes/sunday-morning/preview.svg",
+   "swatch": {
+    "bg": "#fbf6ea",
+    "panel": "#fffdf6",
+    "text": "#2a2419",
+    "inks": [
+     "#d4702b",
+     "#f2c14e",
+     "#5b9bd5",
+     "#fffdf6"
+    ]
+   },
+   "fonts": {
+    "display": "outfit",
+    "body": "outfit"
+   },
+   "shape": "round",
+   "particles": "bokeh",
+   "horizon": "hills"
+  },
+  {
+   "id": "tidepool",
+   "name": "Tidepool",
+   "blurb": "A rock pool at low tide: sea-glass greens on wet sand, light bending through shallow water, bubbles rising.",
+   "mode": "light",
+   "author": "Shell:B",
+   "license": "MIT",
+   "version": "1.0",
+   "tags": [
+    "sea",
+    "light",
+    "calm"
+   ],
+   "path": "themes/tidepool/theme.json",
+   "preview": "themes/tidepool/preview.svg",
+   "swatch": {
+    "bg": "#eef5f1",
+    "panel": "#f7fbf8",
+    "text": "#10302a",
+    "inks": [
+     "#0f7f73",
+     "#2c6fb0",
+     "#e8b86a",
+     "#f4e9d2"
+    ]
+   },
+   "fonts": {
+    "display": "sora",
+    "body": "sora"
+   },
+   "shape": "round",
+   "particles": "bubbles",
+   "horizon": "waves"
+  }
+ ]
+}

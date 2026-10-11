@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/EveAeternam/Shell-B-Themes/theme.schema.json",
+  "title": "Shell:B theme",
+  "type": "object",
+  "required": ["name", "mode", "palette", "author", "license"],
+  "additionalProperties": false,
+  "$defs": {
+    "hex": { "type": "string", "pattern": "^#([0-9a-fA-F]{6}|[0-9a-fA-F]{3})$" },
+    "hexList": { "type": "array", "items": { "$ref": "#/$defs/hex" } }
+  },
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,39}$", "description": "Optional; must equal the folder name" },
+    "name": { "type": "string", "minLength": 1, "maxLength": 32 },
+    "blurb": { "type": "string", "maxLength": 160 },
+    "mode": { "enum": ["dark", "light"] },
+    "author": { "type": "string", "minLength": 1 },
+    "license": { "type": "string", "minLength": 1, "description": "SPDX identifier" },
+    "version": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "homepage": { "type": "string", "format": "uri" },
+    "palette": {
+      "type": "object",
+      "required": ["bg", "panel", "text", "text2", "muted", "accent", "brand"],
+      "additionalProperties": false,
+      "properties": {
+        "bg": { "$ref": "#/$defs/hex" }, "panel": { "$ref": "#/$defs/hex" }, "raised": { "$ref": "#/$defs/hex" },
+        "hover": { "$ref": "#/$defs/hex" }, "code": { "$ref": "#/$defs/hex" }, "text": { "$ref": "#/$defs/hex" },
+        "text2": { "$ref": "#/$defs/hex" }, "muted": { "$ref": "#/$defs/hex" }, "accent": { "$ref": "#/$defs/hex" },
+        "brand": { "$ref": "#/$defs/hex" }, "line": { "$ref": "#/$defs/hex" }
+      }
+    },
+    "inks": { "$ref": "#/$defs/hexList", "maxItems": 4 },
+    "fonts": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "display": { "enum": ["inter", "barlow", "barlow-condensed", "shippori-mincho", "josefin-sans", "jetbrains-mono", "georgia", "cormorant-garamond", "sora", "syncopate", "outfit", "zen-maru-gothic"] },
+        "body": { "enum": ["inter", "barlow", "shippori-mincho", "georgia", "sora", "outfit", "zen-maru-gothic"] }
+      }
+    },
+    "caps": { "type": "boolean" },
+    "tracking": { "type": "number", "minimum": -0.02, "maximum": 0.24 },
+    "shape": { "enum": ["soft", "hard", "round"] },
+    "backdrop": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "sky": { "$ref": "#/$defs/hexList", "maxItems": 3 },
+        "glows": {
+          "type": "array", "maxItems": 4,
+          "items": {
+            "type": "object", "required": ["color"], "additionalProperties": false,
+            "properties": {
+              "x": { "type": "number", "minimum": 0, "maximum": 100 }, "y": { "type": "number", "minimum": 0, "maximum": 100 },
+              "size": { "type": "number", "minimum": 10, "maximum": 100 }, "strength": { "type": "number", "minimum": 0.02, "maximum": 0.5 },
+              "color": { "$ref": "#/$defs/hex" }
+            }
+          }
+        },
+        "stars": { "type": "number", "minimum": 0, "maximum": 1 },
+        "horizon": { "enum": ["none", "forest", "mountains", "floating", "waves", "city", "seafloor", "dunes", "snowpines", "hills"] },
+        "horizonColor": { "$ref": "#/$defs/hex" }
+      }
+    },
+    "particles": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "kind": { "enum": ["none", "fireflies", "petals", "leaves", "woodsprites", "snow", "embers", "bubbles", "bokeh", "sand", "rain", "abyss", "aurora"] },
+        "colors": { "$ref": "#/$defs/hexList", "maxItems": 3 },
+        "density": { "type": "number", "minimum": 0.2, "maximum": 2 }
+      }
+    }
+  }
+}

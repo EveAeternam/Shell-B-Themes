@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0.00" stop-color="#fffaf0"/><stop offset="0.50" stop-color="#fbf3e2"/><stop offset="1.00" stop-color="#f6ead2"/></linearGradient>
+<linearGradient id="btn" x1="0" y1="0" x2="1" y2="0"><stop offset="0.00" stop-color="#d4702b"/><stop offset="0.33" stop-color="#f2c14e"/><stop offset="0.67" stop-color="#5b9bd5"/><stop offset="1.00" stop-color="#fffdf6"/></linearGradient></defs>
+<rect width="320" height="180" rx="18" fill="url(#sky)"/>
+<rect x="0" y="0" width="44" height="180" fill="#fffdf6"/>
+<rect x="44" y="0" width="84" height="180" fill="#fffdf6" opacity="0.6"/>
+<rect x="56" y="18" width="60" height="5" rx="2" fill="#2a2419" opacity="0.5"/>
+<rect x="56" y="34" width="52" height="5" rx="2" fill="#2a2419" opacity="0.25"/>
+<rect x="56" y="50" width="56" height="5" rx="2" fill="#2a2419" opacity="0.25"/>
+<rect x="56" y="66" width="44" height="5" rx="2" fill="#2a2419" opacity="0.25"/>
+<text x="144" y="46" font-family="Outfit, sans-serif" font-size="18" font-weight="600" fill="#2a2419" style="">Good evening</text>
+<rect x="144.0" y="62" width="16.0" height="4" fill="#d4702b"/><rect x="160.0" y="62" width="16.0" height="4" fill="#f2c14e"/><rect x="176.0" y="62" width="16.0" height="4" fill="#5b9bd5"/><rect x="192.0" y="62" width="16.0" height="4" fill="#fffdf6"/>
+<rect x="144" y="84" width="152" height="22" rx="18" fill="#fffdf6" stroke="#2a2419" stroke-opacity="0.13"/>
+<rect x="144" y="114" width="118" height="22" rx="18" fill="#fffdf6" stroke="#2a2419" stroke-opacity="0.13"/>
+<rect x="228" y="148" width="68" height="18" rx="999" fill="url(#btn)"/>
+</svg>

@@ -1,0 +1,19 @@
+name: Validate themes
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check every theme
+        run: python3 -I scripts/validate.py --check
+      - name: index.json and previews are up to date
+        run: |
+          python3 -I scripts/validate.py
+          git diff --exit-code -- index.json themes/ || { echo "Run scripts/validate.py and commit index.json + preview.svg"; exit 1; }

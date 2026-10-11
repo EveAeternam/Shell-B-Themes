@@ -1,0 +1,26 @@
+{
+  "name": "Tidepool",
+  "blurb": "A rock pool at low tide: sea-glass greens on wet sand, light bending through shallow water, bubbles rising.",
+  "mode": "light",
+  "author": "Shell:B",
+  "license": "MIT",
+  "version": "1.0",
+  "tags": ["sea", "light", "calm"],
+  "palette": {
+    "bg": "#eef5f1", "panel": "#f7fbf8", "raised": "#e1ece6", "hover": "#d3e3da", "code": "#f2f7f4",
+    "text": "#10302a", "text2": "#3f5f58", "muted": "#5b746e",
+    "accent": "#0f7f73", "brand": "#2c6fb0", "line": "#0a2a24"
+  },
+  "inks": ["#0f7f73", "#2c6fb0", "#e8b86a", "#f4e9d2"],
+  "fonts": { "display": "sora", "body": "sora" },
+  "caps": false, "tracking": 0, "shape": "round",
+  "backdrop": {
+    "sky": ["#f4f9f6", "#e4f0ea", "#cfe4dc"],
+    "glows": [
+      { "x": 80, "y": 10, "size": 60, "strength": 0.18, "color": "#ffffff" },
+      { "x": 20, "y": 90, "size": 70, "strength": 0.12, "color": "#7fd1c0" }
+    ],
+    "stars": 0, "horizon": "waves", "horizonColor": "#9fcabd"
+  },
+  "particles": { "kind": "bubbles", "colors": ["#ffffff", "#bfe6da"], "density": 0.7 }
+}

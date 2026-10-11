@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0.00" stop-color="#120a16"/><stop offset="0.50" stop-color="#1a0f1e"/><stop offset="1.00" stop-color="#2a1626"/></linearGradient>
+<linearGradient id="btn" x1="0" y1="0" x2="1" y2="0"><stop offset="0.00" stop-color="#e3493a"/><stop offset="0.50" stop-color="#f0b64a"/><stop offset="1.00" stop-color="#ffd9a0"/></linearGradient></defs>
+<rect width="320" height="180" rx="8" fill="url(#sky)"/>
+<rect x="0" y="0" width="44" height="180" fill="#231527"/>
+<rect x="44" y="0" width="84" height="180" fill="#231527" opacity="0.6"/>
+<rect x="56" y="18" width="60" height="5" rx="2" fill="#f6e9e3" opacity="0.5"/>
+<rect x="56" y="34" width="52" height="5" rx="2" fill="#f6e9e3" opacity="0.25"/>
+<rect x="56" y="50" width="56" height="5" rx="2" fill="#f6e9e3" opacity="0.25"/>
+<rect x="56" y="66" width="44" height="5" rx="2" fill="#f6e9e3" opacity="0.25"/>
+<text x="144" y="46" font-family="'Shippori Mincho', serif" font-size="18" font-weight="600" fill="#f6e9e3" style="">Good evening</text>
+<rect x="144.0" y="62" width="21.3" height="4" fill="#e3493a"/><rect x="165.3" y="62" width="21.3" height="4" fill="#f0b64a"/><rect x="186.7" y="62" width="21.3" height="4" fill="#ffd9a0"/>
+<rect x="144" y="84" width="152" height="22" rx="8" fill="#231527" stroke="#f6e9e3" stroke-opacity="0.13"/>
+<rect x="144" y="114" width="118" height="22" rx="8" fill="#231527" stroke="#f6e9e3" stroke-opacity="0.13"/>
+<rect x="228" y="148" width="68" height="18" rx="999" fill="url(#btn)"/>
+</svg>

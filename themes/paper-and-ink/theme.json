@@ -1,0 +1,19 @@
+{
+  "name": "Paper & Ink",
+  "blurb": "An editorial desk: cream stock, charcoal ink, one vermilion stamp. Serif headings, no backdrop, nothing moving.",
+  "mode": "light",
+  "author": "Shell:B",
+  "license": "MIT",
+  "version": "1.0",
+  "tags": ["editorial", "light", "quiet", "serif"],
+  "palette": {
+    "bg": "#f6f1e7", "panel": "#fbf8f1", "raised": "#ece5d6", "hover": "#e1d8c6", "code": "#f1ece2",
+    "text": "#1f1b17", "text2": "#58514a", "muted": "#6e665e",
+    "accent": "#b3301e", "brand": "#2f4a6e", "line": "#1f1b17"
+  },
+  "inks": ["#1f1b17", "#b3301e", "#2f4a6e"],
+  "fonts": { "display": "cormorant-garamond", "body": "georgia" },
+  "caps": false, "tracking": 0, "shape": "soft",
+  "backdrop": { "sky": ["#f8f4ec", "#f3ede1"], "glows": [], "stars": 0, "horizon": "none", "horizonColor": "#000000" },
+  "particles": { "kind": "none", "colors": [], "density": 1 }
+}
